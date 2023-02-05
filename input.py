@@ -7,8 +7,8 @@ import mysql.connector
 connector=mysql.connector.connect (
     user ='user', 
     password ='passwd', 
-    host ='172.30.10.3', 
-    database ='PS4_DB'
+    host ='127.0.0.1', 
+    database ='Ps4_db'
     #charset="utf8mb3"
     )
 
