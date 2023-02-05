@@ -5,8 +5,8 @@ import mysql.connector
 
 #make connection to database
 connector=mysql.connector.connect (
-    user ='master', 
-    password ='2547561', 
+    user ='user', 
+    password ='passwd', 
     host ='172.30.10.3', 
     database ='PS4_DB'
     #charset="utf8mb3"
